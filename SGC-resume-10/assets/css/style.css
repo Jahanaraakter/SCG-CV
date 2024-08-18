@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     color: #000000;
+
+}
+
+/* resume right side css start from here */
+
+
+.resume-10{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    min-height: auto;
+    background: #ffffff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+   
+}
+.top-section{
+    margin-bottom: 30px;
+}
+.resume-10 .left-side-resume{
+    position: relative;
+    padding: 40px;
+}
+.left-resume-content{
+    line-height: 140%;
+}
+
+.resume-name{
+    font-size: 42px;
+    font-weight: 400;
+}
+.first-name{
+    font-size: 42px;
+    font-weight: 700;
+    margin-right: 15px;
+    
+}
+.left-resume-content-section{
+    border-bottom: 1px solid #B5B5B5;
+}
+.resume-designation{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-top: 10px;
+}
+.resume-description{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0 20px 0;
+}
+.resume-description1{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0 0px 0;
+}
+.resume-header{
+    font-weight: 700;
+    border-bottom:2px solid #000000;
+    padding-bottom: 5px;
+}
+.workplace{
+    border-right: 1px solid #000000;
+    padding-right: 10px;
+}
+.workplace-name{
+    padding-left: 10px;
+}
+.job-position{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+.resume-experience{
+    padding: 10px 0 10px 10px;
+}
+.references-10-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.phoneContainer,
+.emailContainer {
+    display: flex; 
+    align-items: center; 
+    font-size: 16px;
+}
+
+.phoneNumbertitle,
+.emailtitle {
+    margin-right: 5px; 
+    font-weight: 700;
+}
+
+.phoneNumber,
+.emailAddress {
+    text-decoration: none; 
+    color: black; 
+}
+.phoneNumber:hover, .emailAddress:hover {
+    color: #FFB317;
+}
+/* resume left side css ends here */
+
+/* resume right side css start from here */
+
+.resume-10 .right-side-resume{
+    position: relative;
+    background: #f5f5f5;
+}
+.right-resume-content{
+    position: relative;
+    margin-top: -150px;
+    padding: 40px;
+    background-color: #989898;
+    clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+}
+.right-resume-image img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.resume-contact-text{
+    margin-bottom: 20px;
+}
+.resume-contact-text ul{
+    list-style: none;
+}
+.resume-contact-text ul li{
+    margin: 10px 0;
+    line-height: 140%;
+}
+.right-resume-content,
+.resume-contact-text ul li a
+{
+    color: #fff;
+}
+.resume-skill {
+    list-style-type: none;
+}
+
+.resume-skill li::before {
+    content: "\2022"; 
+    color: #fff; 
+    display: inline-block;
+    padding-right: 10px;
+}
+ 
+.resume-header-right{
+    font-weight: 700;
+    border-bottom:2px solid #fff;
+    padding-bottom: 5px;
+}
+.right-resume-content-text{
+    padding-top: 60px;
+}
+.resume-language,
+.resume-interest{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+
+/* resume right side css ends here */

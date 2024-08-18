@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+     background: #72c3f1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     color: #000000;
+
+     
+
+}
+.resume-11{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: auto;
+    background: #ffffff;
+    margin: 50px;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+   
+}
+
+.resume-11 .left-side-11{
+    position: relative;
+    background: #ffffff;
+    padding: 40px;
+    color:#000000;
+
+
+}
+.resume-body-11{
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+
+.profile-text-11{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding-bottom: 20px; */
+    
+    
+}
+
+.profile-img-11 {
+    text-align: center;
+    width: 100%;
+}
+.resume-11 .right-side-11{
+    position: relative;
+    background:#ffffff;
+    padding: 40px;
+
+}
+.sub-heading-11{
+  color:#C55911;  
+  text-align: center;
+  /* font-size: 18px; */
+  padding: 10px 0 0 12px;
+  
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  font-weight: 600;
+
+}
+
+
+.education-11-year,.education-11-inst,.education-11-grade{
+    list-style: none;
+    /* font-family: "Inter"; */
+    font-size: 12px;
+    font-weight: 400;
+    /* line-height: 11px; */
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 3px 0 0 0;
+
+}
+
+.education-11{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.border-in-bottom{
+    border-bottom: 2px solid #D9D9D9;
+    padding: 5px 0 5px 0;
+}
+.degree-name{
+    text-align: center;
+}
+.skill-11{
+    padding: 0 0 10px 15px;
+    font-size: 14px;
+    
+
+}
+.skill-11 li {
+    padding: 5px 0  5px 0;
+    list-style: none;
+    text-align: center;
+}
+.language-11,.interest-11 {
+    list-style: none;
+    /* margin-top: 10px; */
+    /* text-align: center; */
+    position: relative;
+    font-size: 14px;
+    display:flex;
+    
+    
+    
+}
+.language-11  li , .interest-11 li{
+    /* display: flex; */
+    flex-direction: row;
+    padding: 10px 10px 10px 0;
+    /* text-align: center; */
+    margin-left: 30px;
+    /* text-align: center; */
+}
+
+
+.resume-name-11{
+    /* font-family: "Inter"; */
+    color:#C55911;  
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.first-name-11{
+    /* font-family:"Inter"; */
+    color:#C55911;  
+    font-size: 42px;
+    font-weight: 900;
+    margin-right: 15px;
+    
+    
+}
+.resume-designation-11{
+    /* font-family:"Inter"; */
+    /* font-size: 16px; */
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000000;
+
+}
+.resume-top-bottom-11{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    gap: 20px;
+    padding: 15px 6px 0 15px;
+    
+}
+.resume-about-11{
+ 
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
+   
+}
+.address-11{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  
+}
+.contact-11{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  
+    
+}
+.contact-11 p:hover {
+    color: #C55911;
+    cursor: pointer;
+}
+
+.experience-11{
+    /* font-family:"Inter"; */
+    font-weight: 700;
+    color: #C55911;
+    padding: 0 0 5px 18px;
+
+
+}
+.resume-experience-11{
+    padding: 10px 0 10px 10px;
+}
+
+.job-11{
+    list-style: none;
+    padding: 10px 0 10px 10px;
+}
+
+.company-name-11{
+    padding: 5px 0 5px 0;
+}
+.job-11-position{
+    padding: 5px 0 5px 0;
+}
+.reference-11{
+    /* font-family:"Inter"; */
+    font-weight: 700;
+    color: #C55911;
+    padding: 0 0 0 18px;
+   
+    
+
+}
+.resume-reference-11{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 18px ;
+    gap: 20PX;
+    
+}
+.resume-right-11 .ref{
+    color: black;
+    font-size: 14px;
+}
+/* .ref p{
+    line-height: 15px;
+} */
+.resume-right-11 .ref span{
+    font-weight: bolder;
+}
+.ref-name-11{
+    padding: 4px 0 4px 0;
+
+}
+.ref-position-11 , .ref-phone-11 , .ref-email-11{
+    padding: 3px 0 3px 0;
+    
+}

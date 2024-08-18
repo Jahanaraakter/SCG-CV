@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+     background: #72c3f1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     color: #000000;
+
+     
+
+}
+.resume-6{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: auto;
+    background: #ffffff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+   
+}
+.resume-6 .left-side-6{
+    position: relative;
+    background: #484848;
+    padding: 40px;
+    color:#ffffff;
+
+
+}
+.profile-text-6{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding-bottom: 20px; */
+    
+    
+}
+/* .profile-img-6 img{
+    width: 150%;
+    height: 150%;
+} */
+.profile-img-6{
+    width: 100;
+}
+
+
+.resume-6 .right-side-6{
+    position: relative;
+    background:#ffffff;
+    padding: 40px;
+
+}
+.sub-heading-6{
+    color: #FFB317;
+    /* font-family: Inter; */
+    text-align: left;
+    font-size: 18px;
+    padding: 15px 0 0 0;
+    border-bottom: 2px solid #FFFFFF;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    font-weight: 600;
+
+}
+.contact-details-6{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 4px 10px 10px 0;
+    line-height: 140%
+
+}
+.contact-heading-6{
+  margin-top: 10px;
+}
+
+
+.education-6-details-6{
+    list-style: none;
+    /* font-family: "Inter"; */
+    font-size: 12px;
+    font-weight: 400;
+    /* line-height: 11px; */
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 3px 0 0 0;
+
+}
+.education-6{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.skill-6{
+    padding: 0 0 10px 15px;
+    font-size: 14px;
+
+}
+.skill-6 li {
+    padding: 5px 0  5px 0;
+}
+.language-6{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 14px;
+    display: flex;
+}
+.language-6  li{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 0;
+}
+.interest-6 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 16px;
+    display: flex; 
+}
+
+.interest-6 li {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 0;
+}
+.resume-name-6{
+    /* font-family: "Inter"; */
+    color:#FFB317 ;
+    font-size: 42px;
+    font-weight: 400;
+}
+.first-name-6{
+    /* font-family:"Inter"; */
+    color:#FFB317 ;
+    font-size: 42px;
+    font-weight: 900;
+    margin-right: 15px;
+    
+}
+.resume-designation-6{
+    /* font-family:"Inter"; */
+    /* font-size: 16px; */
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #000000;
+
+}
+.resume-about-6{
+    /* font-family: "Inter"; */
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 0 20px 0;
+}
+.experience-6{
+    /* font-family:"Inter"; */
+    font-weight: 700;
+    color: #FFB317;
+    padding: 0 0 0 18px;
+    padding-block: 10px;
+    background-color: #484848;
+
+}
+.resume-experience-6{
+    padding: 10px 0 10px 10px;
+}
+
+.job-6{
+    list-style: none;
+    padding: 10px 0 10px 10px;
+}
+
+.company-name-6{
+    padding: 5px 0 5px 0;
+}
+.job-6-position{
+    padding: 5px 0 5px 0;
+}
+.reference-6{
+    /* font-family:"Inter"; */
+    font-weight: 700;
+    color: #FFB317;
+    padding: 0 0 0 18px;
+    padding-block: 10px;
+    background-color: #484848;
+
+}
+.resume-reference-6{
+    display: flex;
+    /* / justify-content: center; / */
+    padding: 18px;
+    gap: 20px;
+    /* / justify-content: space-around; / */
+    
+}
+.resume-right-6 .ref{
+    color: black;
+    font-size: 14px;
+}
+.ref p{
+    line-height: 15px;
+}
+.resume-right-6 .ref span{
+    font-weight: bolder;
+}
+.ref-name-6{
+    padding: 4px 0 4px 0;
+
+}
+.ref-position-6 , .ref-phone-6 , .ref-email-6{
+    padding: 3px 0 3px 0;
+    
+}

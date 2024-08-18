@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     color: #000000;
+
+}
+
+/* resume right side css start from here */
+
+
+.resume-14 {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    min-height: auto;
+    background: #ffffff;
+    margin: 50px;
+    
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+   
+}
+
+.top-section-14{
+    color: #ffffff;
+    background-color: #2E3E4E;
+    text-align: center;
+    padding: 20px 0;
+}
+.profile-pic-14{
+    text-align: left;
+}
+.profile-pic-14 img{
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    position: relative;
+    left: 5%;
+    margin-bottom: -200px;
+    z-index: 999;
+    width: 200px;
+    height: 200px;
+}
+
+.resume-name-14{
+    font-size: 42px;
+    font-weight: 400;
+}
+.first-name-14{
+    font-size: 44px;
+    font-weight: 700;
+    margin-right: 15px;  
+}
+.resume-designation-14{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 3px;
+}
+.resume-14-bottom{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.resume-14 .left-side-resume{
+    background-color: #f1f1f1;
+    position: relative;
+    padding: 80px 40px 40px;
+    text-align: center;
+}
+.left-resume-content-text-14{
+    padding-top: 60px;
+    line-height: 140%;
+    color: #000000;
+}
+.resume-contact-text-14{
+    margin-bottom: 20px;
+}
+.resume-contact-text-14 ul{
+    list-style: none;
+}
+.resume-skill-14 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
+    text-align: left;
+    font-weight: bold;
+}
+.resume-language-14,
+.resume-interest-14{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+
+.resume-header-left-14{
+    font-weight: 700;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+.phoneContainer-14,
+.emailContainer-14 {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-size: 16px;
+}
+
+.phoneNumbertitle-14,
+.emailtitle-14 {
+    margin-right: 5px; 
+    font-weight: 700;
+}
+
+.phoneNumber-14,
+.emailAddress-14 {
+    text-decoration: none; 
+    color: black; 
+}
+.phoneNumber-14:hover, .emailAddress-14:hover {
+    color: #FFB317;
+    transition: color 0.3s ease-in-out;
+}
+.workplace{
+    border-right: 1px solid #000000;
+    padding-right: 10px;
+}
+.workplace-name{
+    padding-left: 10px;
+}
+.job-position-14{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 8px 0 0 0;
+}
+.reference-gap{
+    margin-bottom: 20px;
+}
+
+/* resume left side css ends here */
+
+/* resume right side css start from here */
+
+.resume-14 .right-side-resume{
+    position: relative;
+    background: #ffffff;
+    line-height: 140%;
+    padding: 40px;
+}
+.right-resume-content-section{
+    
+    border-bottom: 2px solid #000;
+}
+.marginTop{
+    margin-top: 20px ;
+}
+.resume-description-14{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0 20px 0;
+}
+.resume-description-p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0 10px 0;
+}
+.resume-header-right-14{
+    font-weight: 700;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+}
+.company-date-14{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-description1{
+    font-size: 16px;
+    font-weight: 700;
+}
+.resume-experience{
+    padding: 10px 0 10px 10px;
+}
+
+
+
+
+
+/* resume right side css ends here */

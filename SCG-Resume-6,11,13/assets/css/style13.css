@@ -1,0 +1,275 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: #72c3f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #000000;
+
+}
+.resume-13{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: auto;
+    background: #ffffff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 30% 70%; /* 1fr 2fr */
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+   
+}
+.resume-13 .left-side-13{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    /* color:#ffffff; */
+}
+.resume-13 .right-side-13{
+    position: relative;
+    background: #ffffff;
+    padding: 40px;
+
+}
+.profile-text-13{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    
+}
+.profile-text-13 .profile-img-13{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-text-13 .profile-img-13 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-text-13 h2{
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profile-text-13 h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo-13{
+    padding-top: 40px;
+}
+.title-13{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo-13 ul{
+    position: relative;
+}
+.contactInfo-13 ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo-13 ul li .icon-13{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo-13 ul li span{
+    color: #ffffff;
+    font-weight: 300;
+    text-align: left;
+}
+.contactInfo-13 ul li .text-13 {
+    transition: color 0.3s ease;
+}
+
+.contactInfo-13 ul li:hover .text-13 {
+    color: #03a9f4;
+}
+.contactInfo-13.education-13 li {
+    margin-bottom: 15px;
+}
+.contactInfo-13.education-13 h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.contactInfo-13.education-13 h4:nth-child(2){
+    color: #ffffff;
+    font-weight: 550;
+}
+.contactInfo-13.education-13 h4{
+    color: #ffffff;
+    font-weight: 300;
+}
+.contactInfo-13.language-13 .percent-13{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+
+}
+.contactInfo-13.language-13 .percent-13 div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.about-13{
+    margin-bottom: 50px;
+}
+.about-13:last-child{
+    margin-bottom: 0;
+}
+.profile-title{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+ 
+}
+.exp-details{
+    color: #333;
+}
+.about-13 .box-13{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about-13 .box-13 .year-company-13{
+    min-width: 150px;
+}
+.about-13 .box-13 .year-company-13 h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about-13 .box-13 .text-13 h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+.skills-13 .box-13{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr; 
+    justify-content: center;
+    align-items: center;
+}
+.skills-13 .box-13 h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.skills-13 .box-13  .percent-13{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #bec3c5;
+}
+.skills-13 .box-13 .percent-13 div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.skill-topic-13{
+    padding: 10px;
+}
+.interest-13 ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.interest-13 ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+
+}
+.interest-13 ul li .fa{
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+}
+@media (max-width: 1000px)
+{
+    .resume-13
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interest-13 {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 600px)
+{
+    .about-13 .box-13
+    {
+        flex-direction: column;
+    }
+    .about-13 .box-13 .year-company-13
+    {
+        min-width: 150px;
+        margin-bottom: 5px;
+    }
+
+}
+.reference-6{
+    /* font-family:"Inter"; */
+    font-weight: 700;
+    color: #FFB317;
+    padding: 0 0 0 18px;
+    padding-block: 10px;
+    background-color: #484848;
+
+}
+.resume-reference-13{
+    display: flex;
+    /* / justify-content: center; / */
+    padding: 12px;
+    gap: 20px;
+    /* / justify-content: space-around; / */
+    
+}
+.resume-right-6 .ref-13{
+    color: black;
+    font-size: 14px;
+}
+.ref-13 p{
+    line-height: 15px;
+}
+.resume-right-13 .ref-13 span{
+    font-weight: bolder;
+}
